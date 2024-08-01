@@ -17,7 +17,7 @@ int main() {
     // vary paramaters based on desired output
     int dp, max_m = 2, max_x = 20, num_intervals = 100, N = 10000;
     double step_size = (double) max_x / num_intervals; // data type double to better handle potential future changes to solve at irrational intervals 
-    char filename[] = "25590_Bessel_output.txt"; // change filename accordingly, maintaining '.txt' suffix
+    char filename[] = "Bessel_Output.txt"; // change filename accordingly, maintaining '.txt' suffix
 
     printf("\nThis program will approximate the Bessel function solutions for 0 <= x <= %i, and 0 <= m <= %i using the composite trapezium rule at N = %i \n", max_x, max_m, N);
     
