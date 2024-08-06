@@ -7,6 +7,7 @@ J_{m}(x) = \frac{1}{\pi}\int_{0}^{\pi} \text{cos}(m \theta - x \text{sin} \theta
 $$
 
 in C, using the composite trapezium rule (CTR) to approximate the integral. This demonstrates proficiency in mathematical computations, numerical methods, and efficient data handling. The calculator computes Bessel functions of the first kind for various orders and outputs the results in a neatly formated text file.
+
 ## Features
 
 - **Bessel Function Computation:** Calculates Bessel functions of the first kind $J_{m}(x)$ for orders $m = 0$ to $m = 9$.
@@ -20,7 +21,6 @@ in C, using the composite trapezium rule (CTR) to approximate the integral. This
 - **File Handling:** Efficiently manages output large dataset operations to a .txt file.
 - **Algorithm Implementation:** Develops efficient algorithms to perform complex mathematical computations.
 - **Efficiency Optimization:** Once calcuated, samples the Bessel function at varied m and x values using a smaller N to verify the precision to the number of decimal places rquested by the user, improving computational efficiency by reducing N when possible if the output is unchanged.
-
 
 ## Code Overview
 
